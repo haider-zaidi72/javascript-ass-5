@@ -10,8 +10,6 @@
        let randomChar = num[Math.floor(Math.random()*num.length)]
        color += randomChar  // output #123456
      
-    //     // letter = Math.floor(Math.random()*6)+97
-
         let text=document.getElementById("color") // get element by ID
         text.style.backgroundColor= color;  // apply on background color
     }
